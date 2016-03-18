@@ -1,0 +1,182 @@
+ .navbar 
+  {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 16px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;  
+	  background-color: rgba(0,0,0,0.8);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    }
+  
+  .navbar li a, .navbar .navbar-brand 
+  {
+      color: skyblue !important;  
+   }
+  .navbar-nav li a:hover, .navbar-nav li.active a
+  {
+      color: white !important;
+      background-color: black !important;
+   }
+  .navbar-default .navbar-toggle 
+  {
+      border-color: transparent;
+      color: #fff !important;
+   }
+ 
+  .jumbotron h1
+  {
+	  color:white;
+	  opacity:0.6;
+	  text-align:center;
+   }
+  
+  
+  
+  .carousel-inner img 
+  {
+      width: 100%; 
+      margin: auto;
+	  -webkit-opacity:1;
+	  opacity:1;
+	  
+	 
+   }
+  .carousel-caption 
+  {
+	 line-height: normal; 
+	 color:white;
+	 x-width: 550px;
+   }
+  .carousel-control.right, .carousel-control.left
+   {
+     background-image: none;
+     color: skyblue;
+  }
+  .carousel-indicators li
+  {
+     border-color: skyblue;
+  }
+  .carousel-indicators li.active 
+  {
+     background-color: skyblue;
+   }
+  
+  .item h1 
+  {
+     font-family:arial;
+     font-size: 40px; 
+     margin-top:-350px;
+     text-align:center;
+   }
+ 
+  .logo-small
+  {
+     color: #f4511e;
+     font-size: 50px;  
+   }
+ 
+  .bg-grey 
+  {
+     background-color: #f6f6f6;
+   }
+   
+  .bg-black
+  {
+      background-color:black;
+   }
+  
+  .col-md-4
+  {
+     text-align:center;
+   }
+  
+
+  #skills
+  {
+     background-color:skyblue;
+	
+   }
+  
+  #services
+  {
+     background-color:skyblue;
+  }
+   
+   #services p
+   {
+     
+     text-align:left;
+	 font-size:20px;
+	 font-family:cursive;
+	 padding:20px 40px 20px 40px;
+	
+    }
+  
+  #about p
+  {
+	 text-align:left;
+	 font-size:20px;
+	 font-family:cursive;
+	 padding:20px 40px 20px 40px;
+	
+   }
+
+  #resume
+   { 
+     padding:10px 10px 10px 10px;
+     text-align:center;
+	 background-color:black;
+	 color:skyblue;
+	 text-decoration:none;
+    }
+  
+  h2 
+   {
+      text-align:center;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+	  margin-top: 50px;
+    }
+  h4 
+   {
+      font-size: 25px;
+      line-height: 1.375em;
+      color: black;
+	  font-family:cursive;
+      font-weight: 500;
+      margin-bottom: 30px; 
+    } 
+  
+
+   
+  #img_logo
+  {
+	 width:100px;
+	 height:100px;
+	 -webkit-transform:rotate(360deg);
+	 transform:rotate(360deg);
+	 -webkit-animation: roll 5s 5;
+	 animation: roll 5s 5;
+	 -webkit-animation-direction:alternate;
+	 animation-direction:alternate;
+   }
+  
+     @-webkit-keyframes roll 
+	{
+	  0% {transform: rotate(0);}
+	  100% {transform: rotate(360deg);}
+	}
+	
+	@keyframes roll 
+	{
+	  0% {transform: rotate(0);}
+	  100% {transform: rotate(360deg);}
+	}
+	
